@@ -1,2 +1,1 @@
-# synchronousBallMovement
-Ball moving synchronously
+# Canvas Project
