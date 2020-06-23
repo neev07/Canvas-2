@@ -5,19 +5,6 @@ var isDrawing = false;
 
 function setup(){
   canvas = createCanvas(400,400);
-
-
-  var firebaseConfig = {
-    apiKey: "AIzaSyD6WvgZ6na4L0B-_k1SRaMg2BM37WPphIA",
-    authDomain: "my-canvas-project.firebaseapp.com",
-    databaseURL: "https://my-canvas-project.firebaseio.com",
-    projectId: "my-canvas-project",
-    storageBucket: "my-canvas-project.appspot.com",
-    messagingSenderId: "298487906788",
-    appId: "1:298487906788:web:969be981f0693fa4fb47f1"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
   database = firebase.database();
 
 
